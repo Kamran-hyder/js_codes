@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+   <script>
+    // document.write("Hello World!");
+    //  variable decleration
+    // var
+    // let 
+    // constant
+    // var is the keyword that tells JavaScript you're declaring a variable.
+    // var a = "Kamran";
+    // document.write(a," ", );
+    // var a = "ali";
+    // document.write(a);
+
+//  var a = 12;
+//  document.write(a);
+
+//  var a = 0.12000;
+//  document.write(a);
+
+// var a = 12;
+// var b = 13;
+// var c = a+b;
+// document.write(a+b);
+//   var a = 0.123;
+//   document.write(a);
+// var a = 2;
+// var b = 3;
+// document.write(a**b);
+
+// var a = 6;
+// var b = 3;
+// document.write(a%b);
+
+// var a = 12;
+// var a = 13;
+// document.write(a+a);
+
+
+// let a = 12;
+// let a1 = 13;
+// document.write(a+a1);
+
+
+// const a = 12;
+// const a = 12;
+// document.write(a);
+
+// var a = "Ali";
+// var a1 = "19";
+// var a2 = "NED UNIVERSITY";
+// document.write("My name is : ", a);
+// document.write("<br>");
+// document.write("My age is : ",a1);
+// document.write("<br>");
+// document.write("My qualification is : ",a2);
+
+
+// window.alert("hello world");
+
+
+// var x = 10;
+
+// document.write(x);
+// document.write("<br>");
+// document.write(x-=2);
+
+// let x = 50;
+// let y = x - 10;
+// document.write(y);
+
+
+
+// var x = ["toyota","honda","suzuki"];
+// document.write(typeof(x));
+
+// let x = 5;
+// let z = (100 + 3) * x;
+// document.write(z);
+
+
+// let x = 12;
+// let y = "volvo";
+// document.write(x,y);
+
+
+// document.write(12 + "volvo");
+
+
+// var a = 12;
+// document.write(a+=12);
+
+// var x  = 10;
+// var y = 12;
+// if(x >= y){
+//    document.write("x is equal to y");
+// }
+// else{
+//    document.write("x is not equal to y");
+// }
+
+// let x = Number(prompt("Enter A Number"));
+// let y = Number(prompt("Enter A Number"));
+// let z = x+y;
+
+// window.alert("total sum is : " + z);
+
+// var x = 14;
+// var y = 14;
+// if (x != y){
+//    document.write("True");
+// }
+// else{
+//    document.write("False");
+// }
+
+// let x = prompt("Enter a age");
+// if (x >= 18){
+//    document.write("you are eligible for vote cast");
+// }
+// else{
+//    document.write("you are not eligible for vote cast");
+// }
+
+
+// var no1 = Number(prompt("Enter a number: "));
+// var no2 = Number(prompt("Enter a number: "));
+// var Operator = prompt("Enter Your Operator: ");
+// switch (Operator){
+//       case '+':
+//       var add = no1 + no2;
+//       document.write("Your Sum is: " , add);
+//       break;
+
+//       case '-':
+//       var Sub = no1 - no2;
+//       document.write("Your Subtraction is: " , Sub);
+//       break;
+
+//       case '*':
+//       var Mul = no1 * no2;
+//       document.write("Your Multiplication is: " , Mul);
+//       break;
+
+//       case '/':
+//       var Div = no1 / no2;
+//       document.write("Your Division is: " , Div);
+//       break;
+
+//       default:
+//          document.write("Your Answer is Invalid:");
+
+// }
+
+
+// var name = prompt("Enter a name:");
+// var age = Number(prompt("Enter a age:"));
+// if (age >= 18 && age <= 33){
+//    document.write("Registered");
+// } 
+// else{
+//    document.write("Not Registered");
+// }
+
+
+// let x = 5 + 5;
+// document.write(x);
+// let y = 5 + 5;
+// document.write(y);
+// let z = "Hello" + 5 + 15.23 + "abc" + "True";
+// document.write(z);
+
+// var book = "maths";
+// if( book == "history" ) {
+// document.write("<b>History Book</b>");
+// } else if( book == "maths" ) {
+//    document.write("<b>Maths Book</b>");
+// } else if( book == "economics" ) {
+// document.write("<b>Economics Book</b>");
+// } else {
+// document.write("<b>Unknown Book</b>");
+//    }
+
+
+// var grade = prompt("Enter your Grade");
+//             document.write("Entering switch block<br />");
+//             switch (grade) {
+//                case 'A': 
+//                document.write("Good job<br />");
+//                break;
+            
+//                case 'B': 
+//                document.write("Pretty good<br />");
+//                break;
+            
+//                case 'C': 
+//                document.write("Passed<br />");
+//                break;
+            
+//                case 'D': 
+//                document.write("Not so good<br />");
+//                break;
+            
+//                case 'F': 
+//                document.write("Failed<br />");
+//                break;
+            
+//                default:  
+//                document.write("Unknown grade<br />");
+//             }
+//             document.write("Exiting switch block");
+
+
+
+// let x = prompt("Enter your Gender");
+// let y = Number(prompt("Enter your Age"));
+// if (x == 'Male' && y >= 18){
+//    document.write("Please Sit in the Right Coloumn");
+// }
+// else if (x == 'Female' && y == 18){
+//    document.write("Please Sit in the Left Coloumn");
+// }
+// else{
+//    document.write("Go Outside");
+// }
+
+
+// let age  = Number(prompt("Enter your age"));
+// let Gender = prompt("Enter your gender");
+// let Salary_per_month = Number(prompt("Enter your Salary"));
+// if (age < 18){
+//   document.write("Under age");
+// }
+// else if (age >= 60){
+//    document.write("Issue Life time card");
+// }
+// else if (age >= 18 && age < 30 && Salary_per_month == 10000){
+//    document.write("Issue Short Expiry card");
+// }
+// else if (age >= 18 && Salary_per_month == 0 && age <= 22 && Gender == 'M'){
+//    document.write("Issue Shorter Expiry card");
+// }
+// else if (age >= 18 && Salary_per_month == 0 && age <= 30 && Gender == 'F'){
+//    document.write("Issue Longer Expiry card");
+// }
+// else{
+//    document.write("Issue Longer Expiry card");
+// }
+
+
+// let per  = Number(prompt("Enter your Percentage:"));
+// let Subject = prompt("Enter your Subject");
+// if (per >= 90 && Subject == 'E'){
+//    document.write("You can go to NED University");
+// }
+// else if (per >= 90 && Subject == 'M'){
+//    document.write("You can go to Dow University");
+
+// }
+// else if (per >= 80 && Subject == 'E'){
+//    document.write("You can go to Dawood University");
+// }
+// else if (per >= 80 && Subject == 'M'){
+//    document.write("You can go to JSMU University");
+// }
+// else if (per >= 70 && Subject == 'E'){
+//    document.write("You can go to Karachi University");
+// }
+// else if (per >= 70 && Subject == 'M'){
+//    document.write("You can go to Baqai University");
+// }
+// else{
+//    document.write("You can go to Private University");
+// }
+
+// x = 10;
+// y = 20;
+// document.write(x == y);
+// document.write("<br>");
+// document.write( 2 == 2);
+// document.write("<br>");
+// document.write( 5 >= 4);
+// document.write("<br>");
+// document.write( 5 <= 4);
+// document.write("<br>");
+// document.write( 5 != 4);
+
+
+// for(let i = 1; i <= 50 ; i++){
+//    document.write(i , "<br>");
+// }
+
+
+// var tab = Number(prompt("Enter A Number"));
+// for(a = 1; a <= 10; a++){
+//    document.write(tab," X ",a," = ",a*tab,"<br>")
+// }
+
+
+// var a = 12;
+// a--;
+// document.write(a);
+
+
+
+// function abc(){
+//    document.write("My f_name is :",f_name,"<br>");
+//    document.write("My l_name is :",l_name);
+  
+// }
+// abc(f_name="ali",l_name="khan");
+
+// batch 2211B
+
+
+// var a = 12;
+// var b = 14;
+// var c = a+b;
+// document.write(c);
+
+
+// document.write("Hello World!");
+// window.alert("Hello World!");
+
+// var
+// let
+// const
+
+
+// let a = "hello world";
+// document.write(a);
+
+// document.write("<br>");
+// let b = "ali"
+// document.write(b);
+
+// document.write("<br>");
+// let c = "ali"
+// document.write(c);
+
+
+// var a = 10;
+// var a1 = 11;
+// document.write(a1);
+
+// var a = 2;
+// var b = 3;
+// document.write(a**b);
+
+
+// var a = 5;
+// var b = a * (5 + 7);
+// document.write(b);
+
+
+// var name = "ALI";
+// var age = 23;
+// var University_name = "NED UNIVERSITY";
+// document.write("My name is ",name);
+// document.write("<br>");
+// document.write("My age is ",age);
+// document.write("<br>");
+// document.write("My University_name is ",University_name);
+
+// var num1 = Number(prompt("Enter Your Number:"));
+// var num2 = Number(prompt("Enter Your Number:"));
+// var result = num1 + num2;
+// document.write("Your Sum is:",result);
+
+// let x = Number(prompt("Enter A Number"));
+// let y = Number(prompt("Enter A Number"));
+// let result = x + y;
+// window.alert("Your Sum is: " + result);
+
+// var a = 123;
+// document.write(typeof(a));
+
+
+// var a = Number(prompt("Enter a Number"));
+// // var b = 14;
+// if(a >= 18){
+//    document.write("Eligible for Vote cast");
+// }
+// else{
+//    document.write("Not Eligible for Vote cast");
+// }
+
+
+// var a = Number(prompt("Enter A number"));
+// if (a >= 18){
+//    document.write("Registered!");
+// }
+// else{
+//    document.write("Not Registered!");
+// }
+
+
+// var a = 19;
+// if (a != 18){
+//    document.write("Not Eligible");
+// }
+// else{
+//    document.write("Eligible");
+// }
+
+//switch statement
+
+// var no1 = Number(prompt("Enter a number: "));
+// var no2 = Number(prompt("Enter a number: "));
+// var Operator = prompt("Enter Your Operator: ");
+// switch (Operator){
+//       case '+':
+//       var add = no1 + no2;
+//       document.write("Your Sum is: " , add);
+//       break;
+
+//       case '-':
+//       var Sub = no1 - no2;
+//       document.write("Your Subtraction is: " , Sub);
+//       break;
+
+//       case '*':
+//       var Mul = no1 * no2;
+//       document.write("Your Multiplication is: " , Mul);
+//       break;
+
+//       case '/':
+//       var Div = no1 / no2;
+//       document.write("Your Division is: " , Div);
+//       break;
+
+//       default:
+//          document.write("Your Answer is Invalid:");
+
+// }
+
+
+// var z = 12;
+// z *= 12;
+// document.write(z);
+
+//camparsion operator
+
+// x = 10;
+// y = 20;
+// document.write(x == y);
+// document.write("<br>");
+// document.write( 2 == 2);
+// document.write("<br>");
+// document.write( 5 >= 4);
+// document.write("<br>");
+// document.write( 5 <= 4);
+// document.write("<br>");
+// document.write( 5 != 4);
+
+
+//assignment operator
+// var x = 15;
+// x **= 4;
+// document.write(x);
+
+
+//camaprison operator (==,>=,<=,!=)
+
+// var a = 20;
+// var b = 10;
+// if (a != b){
+//    document.write("a is equal to b");
+// }
+// else{
+//    document.write("a is not equal to b");
+// }
+
+//logical opertor (AND && , OR || , NOT !)
+// AND (TWO OPERANS ARE TRUE THE RESULT IS TRUE)
+// var age = Number(prompt("Enter your age:"));
+// if (age >= 18 && age <= 33){
+//    document.write("Qualify for driving");
+// }
+// else{
+//    document.write("Not Qualify for driving")
+// }
+
+
+// var age = Number(prompt("Enter your age:"));
+// var name = prompt("Enter your name:");
+// if (age >= 18 || name == "ali"){
+//    document.write("Registered!");
+// }
+// else{
+//    document.write("Not Registered!");
+// }
+
+
+//loop (repeat)
+
+// for(let i = 1 ; i <= 50 ; i++){
+//    document.write(i , "<br>");
+// }
+
+// while loop 
+
+// var i = 0 ;
+// while (i <= 10){
+//    document.write(i , "<br>");
+//    i += 3;
+// }
+
+// table print 
+
+// var tab = Number(prompt("Enter a Number"));
+
+// for(let i = 1 ; i <= 10 ; i++){
+//    document.write(tab , "*" , i , "=" , i * tab ,"<br>"); 
+// }
+
+// var a = prompt("Enter your Name:");
+// for(let i=1; i<=10;i++){
+//    document.write(a,"<br>");
+// }
+
+// function in js 
+
+// function abc(f_name,l_name){
+//    document.write("my f_name is:" ,f_name , "<br>");
+//    document.write("my l_name is:"  , l_name);
+// }
+// abc("Kamran","Hyder");
+
+
+// console.log("Kamran hyder");
+
+
+// function xyz(f_name,l_name){
+//   document.write("First name:",f_name,"<br>");
+//   document.write("last name:",l_name,"<br>");
+// }
+// xyz("ali","khan");
+
+
+
+// i = 0;
+// while (i <= 10){
+//    document.write(i);
+//    i += 1;
+// }
+
+
+
+// console.log(123);
+
+// let a = "ali";
+// document.write(a);
+// document.write("<br>");
+// let a1 = "amjad";
+// document.write(a1);
+
+// const my_num = "ali";
+// document.write(my_num);
+// document.write("<br>");
+
+// document.write(typeof(my_num));
+
+
+// var a = 34;
+// document.write(12 + 13 * a);
+
+
+// var age = Number(prompt("Enter a Age:"));
+// var gender = prompt("Enter a Gender");
+// if (age >= 18 && gender == "Male"){
+//    document.write("Please Sit in the Right Coloumn");
+// }else if (age >= 18 && gender == "Female"){
+//    document.write("Please Sit in the Left Coloumn");
+// }else{
+//    document.write("Go Outside");
+// }
+
+
+// var no1 = Number(prompt("Enter a Number:"));
+// var no2 = Number(prompt("Enter a Number:"));
+// var Operator = prompt("Enter a Operator:");
+// switch (Operator) {
+//    case '+':
+//       var result = no1 + no2;
+//       document.write(result);
+//       break;
+//       default:
+//          document.write("Invalid Character");
+// }
+
+
+// var name = prompt("Enter a Name:");
+// for (i = 0 ; i <= 10 ; i++){
+//    document.write(name, "<br>");
+// }
+
+
+// var x = 0;
+// while (x <= 20){
+//    if(x == 5){
+//       break;
+//    }
+//     x = x+1;
+//     document.write(x,"<br>");
+// }
+
+
+// array methods
+
+// let prime_numbers = [2, 3, 5, 7, 9, 11];
+
+// // replace 1 element from index 4 by 13
+// let removedElement = prime_numbers.splice(4, 1, 13);
+// console.log(removedElement);
+// console.log(prime_numbers);
+
+// const words = ['ali','wajid',123,true]
+// console.log(words[2]);
+// console.log(typeof(words));
+
+
+// const words = ['h','e','l','l','o']
+// console.log(words[4]);
+
+// const fruits = ["apple","banana","orange"]
+// console.log(fruits.length);
+
+// const fruits = ["apple","banana","orange","kiwi"]
+// console.log(fruits[fruits.length-2]);
+
+
+// const names = ["usman","ansari","ali","sufyan","jahangir"]
+// const names_2 = names.sort();
+// console.log(names_2);
+
+
+// const numbers = [10,20,30]
+// const length = numbers.push(40,50);
+// console.log(length);
+// console.log(numbers);
+
+
+// let arr = ["I", "study", "JavaScript", "right", "now"];
+
+// // remove 2 first elements
+// let removed = arr.splice(0, 1);
+
+// console.log(removed);
+         
+
+// let array = ["I", "study", "JavaScript"];
+
+// // from index 2
+// // delete 0
+// // then insert "complex" and "language"
+// array.splice(2,0, "complex", "language");
+
+// document.write(array);
+
+
+// const array1 = ['a','b','c'];
+// const array2 = ['d','e','f'];
+// const array4 = ['kamran','ali']
+// const array3 = array1.concat(array2,array4);
+// alert(array3);
+
+
+
+// const num1 = [[1]];
+// const num2 = [2,[3]];
+// const numbers = num1.concat(num2);
+// console.log(numbers);
+
+
+// num1[0].push(4);
+// console.log(numbers);
+
+
+// let users = [
+//    {id:1 , name:"ali"},
+//    {id:2 , name:"hasnat"},
+//    {id:3 , name:"akram"}
+// ]
+// let user = users.find(item => item.id == 3 );
+// alert(user.name);
+
+
+// const fruits = [];
+// fruits.push("apple","banana","orange");
+// alert(fruits);
+// console.log(fruits.length);
+
+
+
+
+// let users = [
+//   {id: 1, name: "John"},
+//   {id: 2, name: "Pete"},
+//   {id: 3, name: "Mary"},
+//   {id: 4, name: "John"}
+// ];
+
+// alert(users.findIndex(user => user.name == 'John'));
+// alert(users.findLastIndex(user => user.name == 'John'));
+
+
+
+// filter method ()
+// const words = ['spray', 'limit', 'elite', 'exuberant','destruction','present'];
+
+// const result = words.filter(word => word.length > 6);
+// console.log(result);
+
+
+// reverse method()
+
+// const array1 = ["six", "five" , "four" ,"three" , "two" ,"one"];
+// const array2 = array1.reverse();
+// console.log(array2);
+
+
+
+// var x = 0;
+// document.write("Entering the loop: <br>");
+// while (x < 10){
+//    x = x + 1;
+//    if (x == 5){
+//       continue;
+//    }
+//    document.write(x + "<br>");
+// }
+// document.write("Exiting the loop");
+
+// var languages = ["javascript" , "python" , "c++" ,"php"];
+// var shifted = languages.shift();
+// console.log(languages);
+// console.log(shifted);
+
+
+
+// var numbers = [
+//    [1,2,3],
+//    [2,4,6],
+//    [-1,-2,-3],
+// ];
+// console.log(numbers.shift());
+// console.log(numbers);
+
+// let arr = [5, 2, 1, -10, 8];
+
+// arr.sort((a, b) => b - a);
+
+// alert( arr );
+
+
+
+// const arr = [1,2,3,[4,5,6],[7,8,9]];
+// const result  = arr.flat();
+// console.log(result);
+
+// const plants = ['broccoli', 'cauliflower', 'cabbage', 'kale', 'tomato'];
+// console.log(plants.pop());
+// console.log(plants);
+
+
+// const array1 = [1, 2, 'a', '1a',"ali23"];
+// console.log(array1.toString());
+
+
+
+// const object1 = {
+//    a : 'ali',
+//    b : 23,
+//    c : false
+// }
+
+// const result1 = Object.keys(object1);
+// console.log(result);
+
+// const object2 = {
+//    a : 'ali',
+//    b : 23,
+//    c : false
+// }
+
+// const result2 = Object.values(object2);
+// console.log(result2);
+
+
+
+// const object1 = {
+//   a: 'somestring',
+//   b: 42,
+//   c : false
+// };
+
+
+// for (const [key, value] of Object.entries(object1))
+//  {
+  
+// console.log(`${key}: ${value}`);
+
+// }
+
+
+// const arr = [1,2,3];
+// const result = arr.unshift(4);
+// console.log(result);
+// console.log(arr);
+
+
+// const array = ['air' , 'water' , 'fire'];
+// console.log(array.join());
+// const array1 = ['air' , 'water' , 'fire'];
+// console.log(array1.join("-"));
+
+
+
+// const beasts = ['ant', 'bison', 'camel', 'duck', 'bison'];
+// const result = beasts.indexOf('bison');
+// console.log(result);
+
+
+// const animals = ['ant', 'bison', 'camel', 'duck', 'elephant'];
+
+
+// console.log(animals.slice(3));
+
+
+
+// function abc(f_name){
+//    document.write("My f_name is " , f_name);
+// }
+// abc("Ali");
+
+
+
+
+// class car {
+//    constructor(name,year){
+//       this.name = name
+//       this.year = year
+//    }
+// }
+
+// const mycar1 = new car("Audi","audi");
+// const mycar2 = new car("Ford" , 1997);
+
+// console.log(mycar1);
+
+
+
+
+
+// class Car {
+//   constructor(name, year) {
+//     this.name = name;
+//     this.year = year;
+
+//   }
+//   age() {
+//     const date = new Date();
+//     return date.getFullYear() - this.year;
+//   }
+// }
+
+// const myCar = new Car("Ford", 2015);
+// document.write("My car is " + myCar.age() + " years old.");
+
+
+// class Pen{
+//    constructor(name,price,color){
+//       this.name = name;
+//       this.price = price;
+//       this.color = color;
+//    }
+//    showprice(){
+//       console.log(`Price of ${this.name} is ${this.price} and color is ${this.color}`);
+//    }
+// }
+
+// const pen1 = new Pen("Marker" , "$4" , "Blue");
+// console.log(pen1.showprice());
+
+
+
+
+// class Animal {
+//    constructor(name){
+//       this.name = name;
+
+//    }
+//  speak(){
+//    console.log(`${this.name} make a noise`)
+//  }
+// }
+// class Dog extends Animal {
+//    constructor(name){
+//       super(name);
+//    }
+//    speak(){
+//    console.log(`${this.name} barks`)
+//  }
+// }
+// const dog1 = new Animal("Mitze");
+// const dog2 = new Dog("Tonne");
+// dog2.speak();
+// dog1.speak();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   </script>
+</body>
+</html>
